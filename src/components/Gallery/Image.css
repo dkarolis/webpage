@@ -1,0 +1,22 @@
+.image-container {
+    margin: auto;
+}
+
+.image {
+    background-color: #E6E6E6;
+    width: 350px;
+    height: 450px;
+    margin: 10px;
+}
+
+.image-placeholder {
+    padding-top: 200px;
+    font-size: 40px;
+    color: #707070;
+}
+
+@media only screen and (max-width: 800px) {
+    .images-more {
+        display: none;
+    }
+  }

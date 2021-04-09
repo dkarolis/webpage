@@ -1,0 +1,22 @@
+.question-container {
+    text-align: left;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.question {
+    border-bottom: 1px solid #E6E6E6;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.answer {
+    padding: 10px 0;
+}
+
+@media only screen and (max-width: 1500px) {
+    .question-container {
+        margin: 0 30px;
+    }
+  }

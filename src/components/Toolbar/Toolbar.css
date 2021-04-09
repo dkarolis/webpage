@@ -1,0 +1,52 @@
+.toolbar-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.logo {
+  padding: 14px;
+  font-size: 20px;
+}
+
+.menu-list {
+  list-style-type: none;
+}
+
+.menu-list li {
+  display: inline;
+  padding: 20px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo {
+    text-align: left;
+  }
+  .toolbar-container {
+    display: block;
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+  }
+  .menu-list {
+    position: absolute;
+    opacity: 0.8;
+    background-color: #fff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .menu-list li {
+    display: block;
+    text-align: center;
+  }
+}
